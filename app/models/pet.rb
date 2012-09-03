@@ -4,8 +4,10 @@ class Pet < ActiveRecord::Base
   has_many :appointments
   has_many :vets, :through => :appointments
   belongs_to :Owner
+  
   validates :name, presence :true, length :{maximum :35 }
   validates :breed, length :{maximum:35}
+  validates :owner_id, presence :true
   validates :age, presence :true
   validates :weight, presence :true
   validates :date_of_last_visit, presence :true
