@@ -1,7 +1,8 @@
 Hospital::Application.routes.draw do
   get "owners/view"
 
-  resources :owners	
+  resources :owners
+  resources :pets
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
