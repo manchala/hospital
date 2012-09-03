@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  vet_id: 1
+  pet_id: 1
+  owner_id: 1
+  type_of_pet: MyString
+  date_of_visit: 2012-09-02 14:41:07
+
+two:
+  vet_id: 1
+  pet_id: 1
+  owner_id: 1
+  type_of_pet: MyString
+  date_of_visit: 2012-09-02 14:41:07
