@@ -12,5 +12,5 @@ class Pet < ActiveRecord::Base
   validates :weight, presence :true
   validates :date_of_last_visit, presence :true
   validates :type_of_pet, :in => %w(cat dog bird) 
-  
+ 
 end
